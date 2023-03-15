@@ -10,9 +10,10 @@
 		AF660C0C29C1505C0037D53D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF660C0B29C1505C0037D53D /* AppDelegate.swift */; };
 		AF660C0E29C1505C0037D53D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF660C0D29C1505C0037D53D /* SceneDelegate.swift */; };
 		AF660C1029C1505C0037D53D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF660C0F29C1505C0037D53D /* ViewController.swift */; };
-		AF660C1329C1505C0037D53D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF660C1129C1505C0037D53D /* Main.storyboard */; };
 		AF660C1529C1505E0037D53D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF660C1429C1505E0037D53D /* Assets.xcassets */; };
 		AF660C1829C1505E0037D53D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF660C1629C1505E0037D53D /* LaunchScreen.storyboard */; };
+		AF660C2029C17F340037D53D /* Hey-Jude.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF660C1F29C17F330037D53D /* Hey-Jude.mp3 */; };
+		AF660C2229C1836C0037D53D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF660C1129C1505C0037D53D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AF660C1429C1505E0037D53D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF660C1729C1505E0037D53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF660C1929C1505E0037D53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF660C1F29C17F330037D53D /* Hey-Jude.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hey-Jude.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		AF660C0A29C1505C0037D53D /* Hey Jude */ = {
 			isa = PBXGroup;
 			children = (
+				AF660C1F29C17F330037D53D /* Hey-Jude.mp3 */,
 				AF660C0B29C1505C0037D53D /* AppDelegate.swift */,
 				AF660C0D29C1505C0037D53D /* SceneDelegate.swift */,
 				AF660C0F29C1505C0037D53D /* ViewController.swift */,
@@ -126,8 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF660C1829C1505E0037D53D /* LaunchScreen.storyboard in Resources */,
+				AF660C2029C17F340037D53D /* Hey-Jude.mp3 in Resources */,
 				AF660C1529C1505E0037D53D /* Assets.xcassets in Resources */,
-				AF660C1329C1505C0037D53D /* Main.storyboard in Resources */,
+				AF660C2229C1836C0037D53D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
